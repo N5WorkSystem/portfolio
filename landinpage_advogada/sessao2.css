@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cambo&family=Gotu&family=Instrument+Serif:ital@0;1&display=swap');
+/* Remova margens e paddings do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Inclui bordas e paddings no cálculo do tamanho total */
+    text-decoration: none;
+}
+
+/* Estilo do corpo (main/sessão2)*/
+
+#sessao2 {
+    margin: 0; /* Remove margens padrão */
+    overflow-x: hidden; /* Evita rolagem horizontal indesejada */
+    width: 100%;
+    height: 100%;
+                
+}
+
+.titulo {
+    color: #000;
+    font-family: "Instrument Serif";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    
+}
+
+.texto {color: #000;
+    text-align: center;
+    font-family: Gotu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+   
+}
+
+.quadros {
+    width: 303px;
+    height: 320px;
+    border: 3px solid #D2AE6D;
+    background: none;
+    margin-top: 19px;
+    margin-bottom: 42px;
+    padding: 28px;
+    align-items: center;
+}
+
+#quadrosfull {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}

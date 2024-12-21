@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Cambo&family=Gotu&family=Instrument+Serif:ital@0;1&display=swap');
+/* Remova margens e paddings do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Inclui bordas e paddings no cálculo do tamanho total */
+    text-decoration: none;
+}
+
+/* Estilo do corpo (main/sessão2)*/
+
+#quemsou {
+    margin: 0; /* Remove margens padrão */
+    overflow-x: hidden; /* Evita rolagem horizontal indesejada */
+    width: 100%;
+    height: 570%;
+    background-image: url("images/sl_0210121_40570_43.jpg");
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    background-position: top left; /* Alinha a imagem no canto superior esquerdo */
+    display: flex;
+    justify-content: space-around;
+                
+}
+
+.conteudo-quemsou {
+    margin-top: 42px;
+    margin-bottom: 42px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.titulo-quemsou {
+    color: #D2AE6D;
+    font-family: "Instrument Serif";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+
+.texto-quemsou {
+    width: 883px;
+    height: 288px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Gotu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+   
+}
+
+.img-quemsou {
+    width: 281px;
+    height: 400px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    padding: 10px;
+}

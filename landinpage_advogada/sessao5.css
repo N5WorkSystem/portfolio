@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Cambo&family=Gotu&family=Instrument+Serif:ital@0;1&display=swap');
+/* Remova margens e paddings do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Inclui bordas e paddings no cálculo do tamanho total */
+    text-decoration: none;
+}
+
+/* Estilo do corpo (main/sessão2)*/
+
+/* styles.css */
+#contato {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('./images/background_contato.jpg') no-repeat center center fixed;
+    background-size: cover;
+    
+  }
+  
+  .contact-container {
+    width: 100%;
+    max-width: 1920px;
+    height: 661px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+  }
+  
+  .contact-container h1 {
+    color: #D2AE6D;
+    font-family: "Instrument Serif";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .form-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 95%;
+  }
+  
+ 
+  .input-group {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+
+  .input-group input {
+    width: 427px;
+    height: 45px; /* Define a altura fixa do campo */
+    padding: 5px 10px;
+    color: #101010;
+    font-family: Gotu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 2px solid #D2AE6D;
+    border-radius: 10px;
+  }
+  
+    
+  .full-width {
+    width: 878px;
+    height: 195px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    color: #101010;
+    font-family: Gotu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 2px solid #D2AE6D;
+    margin-bottom: 20px;
+    padding: 0px 10px;
+    resize: none; /* Impede redimensionamento do textarea */
+    text-align: left; /* Alinha o texto horizontalmente à esquerda */
+    vertical-align: top; /* Alinha o texto verticalmente ao topo */
+  }
+  
+  .btn-enviar {
+    display: block;
+    width: 222px;
+    height: 41px;
+    flex-shrink: 0;
+    padding: 10px;
+    font-size: 1rem;
+    color: #101010;
+    background-color: #D2AE6D;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0.8;
+    
+  }
+  
+  .btn-enviar:hover {
+    opacity: 1;
+ 
+  }
+  
+  .image-container {
+    width: 256px;
+    height: 400px;
+    flex-shrink: 0;
+    border-radius: 30px;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
